@@ -1,0 +1,5 @@
+The Hibernate architecture includes many objects such as persistent object,
+session factory, transaction factory, connection factory, session, transaction etc.
+Hibernate framework uses many objects such as session factory, session, transaction etc. 
+alongwith existing Java API such as JDBC (Java Database Connectivity), JTA (Java Transaction API)
+ and JNDI (Java Naming Directory Interface).
