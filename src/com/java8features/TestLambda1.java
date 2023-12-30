@@ -1,22 +1,19 @@
 package com.java8features;
 // no parameter lambda expressions
 
-@FunctionalInterface
 interface Drawable {
 	public void draw();
+	
 }
 
 public class TestLambda1 {
-	public static void main(String[] args) {
-     int width=12; 
-     
-   //with lambda  
-     Drawable d=()->{  
-         System.out.println("Drawing "+width);  
-     };  
-     d.draw();  
-	}
+	public static void main(String[] args) {     
+   
+	Drawable d1 = () -> System.out.println("invoked draw by lambda");
+	d1.draw();
 
+
+	}
 }
 
 /*

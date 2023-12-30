@@ -1,4 +1,4 @@
-package com.faq.imp.program;
+ package com.faq.imp.program;
 // get sum of given number digits
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class TrialNumDigitSum {
 			num=num/10;
 		}
 		System.out.println("Total no of digits: "+sum);
+		sc.close();
 	}
 
 }

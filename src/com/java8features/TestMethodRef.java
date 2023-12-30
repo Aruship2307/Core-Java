@@ -1,5 +1,4 @@
 package com.java8features;
-import java.util.function.*;
 
 interface InterFI {
 	public void m1();

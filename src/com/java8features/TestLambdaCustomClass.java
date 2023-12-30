@@ -30,8 +30,8 @@ public class TestLambdaCustomClass {
      al.add(new Ipl("Rohit","MI",45));
      al.add(new Ipl("Dhoni","CSK",07));
      
-     System.out.println("Before sorting: ");
-     System.out.println(al);
+     System.out.println("Before sorting: "+al);
+
     
      // descending order sort for custom class
      Collections.sort(al,(obj1,obj2)->(obj1.number>obj2.number)?-1:(obj1.number<obj2.number)?+1:0);

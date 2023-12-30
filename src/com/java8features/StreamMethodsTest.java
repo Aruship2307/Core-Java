@@ -1,6 +1,7 @@
 package com.java8features;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -30,13 +31,23 @@ public class StreamMethodsTest {
 		   	
 		    // OR --- old approach to write collection code
 		   	//to store even number list in new collection
-		    ArrayList<Integer> aln = new ArrayList<>();
+		    ArrayList <Integer> aln = new ArrayList<>();
 		    
 		    for(Integer i: al) {
 		        if(i%2==0)
 		        aln.add(i);
 		    }
 		   	System.out.println("Even number list: "+aln);
+		   	
+		   	
+		  	// filtered string starts with c & them map String as uppercase 
+		    Arrays.asList("a1", "a2", "b1", "c2", "c1")
+	            .stream()
+	            .filter(s -> s.startsWith("c"))
+	            .map(String::toUpperCase)
+	            .sorted()
+	            .forEach(System.out::println);
+		   
 
 	}
 

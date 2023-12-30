@@ -29,13 +29,13 @@ public class ThreadMethodsDemo{
 		
 		// changing main method name as per custom naming
 		
-		 t.setName("MainThread");
+		 t.setName("CustomMainThread");
 		 
 		 System.out.println("Updated thread name: "+t.getName());
 		 
 		 //check id of thread
 
-		 System.out.println("ID of thread is: "+t.getId());
+		 System.out.println("ID of new thread is: "+t.getId());
 		 
 		 try {
 			 Thread.sleep(1000);
