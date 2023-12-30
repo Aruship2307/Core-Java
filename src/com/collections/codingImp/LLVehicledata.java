@@ -1,5 +1,7 @@
-package code_test;
-import java.util.*;
+package com.collections.codingImp;
+import java.util.List;
+import java.util.LinkedList;
+
 
 class Vehicle {
 	String price, modelNum, name;
@@ -17,7 +19,7 @@ public class LLVehicledata {
 
 	public static void main(String[] args) {
 		//creating list for vehicle class
-		List<Vehicle> ll = new LinkedList<>();
+		List<Vehicle> ll = new LinkedList <>();
 		
 		// creating various objects for list
 		Vehicle v1 = new Vehicle("2.5Cr","m20","Mercedez",9.8);

@@ -1,11 +1,8 @@
-package code_test;
+package com.collections.codingImp;
+import java.util.LinkedList;
 
-import java.util.*;
 public class LLremove2 {
-
-		  
-		        public static void main(String [] args)  
-		        {  
+		        public static void main(String [] args)  {  
 		           LinkedList<String> ll=new LinkedList<String>();  
 		           ll.add("Ravi");  
 		           ll.add("Vijay");  

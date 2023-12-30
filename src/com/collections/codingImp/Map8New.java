@@ -1,5 +1,4 @@
-package code_test;
-
+package com.collections.codingImp;
 import java.util.HashMap;
 import java.util.Map;
 

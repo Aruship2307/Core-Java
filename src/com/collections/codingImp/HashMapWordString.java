@@ -1,6 +1,6 @@
 package com.collections.codingImp;
-
 import java.util.*;
+
 public class HashMapWordString {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package code_test;
+package com.collections.codingImp;
 class High{
 	public Object name() {
 		long p = 918698556704l;

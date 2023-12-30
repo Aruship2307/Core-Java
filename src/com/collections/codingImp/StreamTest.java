@@ -1,6 +1,6 @@
-package code_test;
-
+package com.collections.codingImp;
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.stream.Collectors;
 public class StreamTest {

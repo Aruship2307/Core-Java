@@ -1,4 +1,4 @@
-package code_test;
+package com.collections.codingImp;
 import java.util.*;
 import java.util.Iterator;
 import java.util.Map.Entry;

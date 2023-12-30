@@ -1,4 +1,4 @@
-package code_test;
+package com.collections.codingImp;
 
 //Java Program to demonstrate the use of Java Comparable.  
 //Creating a class which implements Comparable Interface  

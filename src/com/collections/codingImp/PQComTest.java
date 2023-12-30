@@ -1,5 +1,4 @@
-package code_test;
-
+package com.collections.codingImp;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 

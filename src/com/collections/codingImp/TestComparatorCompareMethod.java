@@ -1,9 +1,9 @@
-package code_test;
+package com.collections.codingImp;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;  
 
 //Java Program to demonstrate the use of Java Comparator  
-import java.util.*;  
-import java.io.*;  
-
 class Student{  
 int rollno;  
 String name;  

@@ -1,6 +1,7 @@
-package code_test;
+package com.collections.codingImp;
+import java.util.List;
+import java.util.LinkedList;
 
-import java.util.*;
 class Mobile {
 	double price;
 	String name, modelNum;
@@ -21,13 +22,10 @@ class Mobile {
 
 
 public class LLMobileProp {
-
-	
-
 	public static void main(String[] args) {
 		// creating list of mobile
 		
-		List<Mobile> mob = new LinkedList<Mobile>();
+        List<Mobile> mob = new LinkedList<Mobile>();
 		
 		// created objects for the list 
 				

@@ -1,16 +1,9 @@
-package code_test;
+package com.collections.codingImp;
+import java.util.LinkedList;
 
-import java.util.*;
-
-
-// add elements in linked list
-
-//https://www.youtube.com/watch?v=XcAALEmSt50    -->> railway project
 public class LLtes {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		  
+	public static void main(String[] args) {		  
 		     LinkedList<Integer> ll = new LinkedList<>();
 		     ll.add(5);
 		     ll.add(10);

@@ -1,6 +1,5 @@
-package code_test;
-import java.util.*;
-
+package com.collections.codingImp;
+import java.util.LinkedList;
 public class LLremethod {
 
 	public static void main(String[] args) {

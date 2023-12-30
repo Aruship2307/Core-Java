@@ -1,5 +1,8 @@
-package code_test;
-import java.util.*;
+package com.collections.codingImp;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Collections;
+import java.util.Iterator;
 
 public class TestList {
 
