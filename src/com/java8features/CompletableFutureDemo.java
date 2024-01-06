@@ -3,14 +3,13 @@ package com.java8features;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-public class TestDemo {
-	
+public class CompletableFutureDemo {
     private static String callService(String serviceName) {
         // Simulate service call
         return serviceName + " response";
-    }
+    }    
 
-	public static void main(String[] args) throws InterruptedException, ExecutionException {
+	public static void main(String[] args) throws InterruptedException, ExecutionException{
         CompletableFuture<String> service1 = CompletableFuture.supplyAsync(() -> callService("Service 1"));
         CompletableFuture<String> service2 = CompletableFuture.supplyAsync(() -> callService("Service 2"));
 

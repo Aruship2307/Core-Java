@@ -21,8 +21,7 @@ public class StringNonRepeatedFirstCharFind {
 	    }
 
     public static void main(String[] args) {
-        String str = "Java Articles Are Awesome";
-
+        String str = "Java Articles Are Awesome";  // output = J (first non repeated character)
         char result = findFirstNonRepeatedChar(str);
 
         System.out.println("First non-repeated character: " + result);

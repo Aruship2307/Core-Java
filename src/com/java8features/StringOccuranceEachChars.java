@@ -1,18 +1,50 @@
 package com.java8features;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+// Count the occurrence of each character in a given string
 public class StringOccuranceEachChars {
 
 	public static void main(String[] args) {
-		String str = "JAVA DEVELOPER";  // used map to print each character & along with its count from given string
+		String str1 = "ILOVEJAVATECHIE";
+		//String[] strArray = str1.split("");  // map = Arrays.stream(strArray).  // string into char Array
+		//System.out.println(Arrays.toString(strArray));
+	     Map<String, Long> map = Arrays.stream(str1.split("")).collect(Collectors.groupingBy(c->c,Collectors.counting()));
+	    // System.out.println(map);
+	    // map.forEach((chars, count)->System.out.println("character '"+chars+"' : "+count));
+		
+		
+		// or 2nd way to use direct string 
+		String str = "JAVADEVELOPER";  // used map to print each character & along with its count from given string
 		Map<Character, Long> charCountMap = str.chars() // chars() method to convert the string to an IntStream of characters, 
 		   .mapToObj(c->(char)c)
 		   .collect(Collectors.groupingBy(c->c, Collectors.counting()));
 		// printing occurrence of each character and its count
-		charCountMap.forEach((chars, count)->System.out.println("character '"+chars+"' : "+count));
+		//charCountMap.forEach((chars, count)->System.out.println("character '"+chars+"' : "+count));
+		
+		/*find duplicate character from given string only*/
+		List<String> strDuplicate = Arrays.stream(str.split("")).collect(Collectors.groupingBy(c->c, Collectors.counting()))
+		.entrySet().stream()
+		.filter(x->x.getValue()>1)
+		.map(Map.Entry::getKey)
+		.collect(Collectors.toList());
+		//System.out.println(strDuplicate);
+		
+		/*find unique character from given string only*/
+		List<String> uniqueChars = Arrays.stream(str.split("")).collect(Collectors.groupingBy(x->x, Collectors.counting()))
+		       .entrySet().stream()
+		       .filter(x->x.getValue()==1)
+		       .map(Map.Entry::getKey)
+		       .collect(Collectors.toList());
+		
+		System.out.println(uniqueChars);
+
 
 	}
+	
+
 }
 //mapToObj(c->(char)c) =  it  converts each integer value (representing a character) into a char
 //collect(Collectors.groupingBy(c->c, Collectors.counting())) = collect method is used to collect the characters into a Map where the keys are characters and the values are the counts of each character.

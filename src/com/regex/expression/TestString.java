@@ -10,11 +10,11 @@ public class TestString {
 		// Define a pattern to be searched 
 		Pattern pattern = Pattern.compile("amg");
 		
-		// search above pattern in bewlo matchesr
+		// search above pattern in below matcher
 		
 		Matcher matcher = pattern.matcher("cloudamg.com");
 		
-		// print from start & end positiom of pattern found 
+		// print from start & end position of pattern found 
 		
 		while(matcher.find()) {
 			System.out.println("Pattern found position: "+matcher.start()+" to "+matcher.end());

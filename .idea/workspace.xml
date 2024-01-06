@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da0d683e-3f86-4ab9-a41c-c8bcd5129aeb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8features/AnonymousInnerVsLambdaExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8features/AnonymousInnerVsLambdaExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/faq/imp/program/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/faq/imp/program/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/faq/imp/program/Testc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/faq/imp/program/Testc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/faq/imp/program/Web1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java8features/StringNonRepeatedFirstCharFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8features/StringNonRepeatedFirstCharFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/regex/expression/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/regex/expression/TestString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

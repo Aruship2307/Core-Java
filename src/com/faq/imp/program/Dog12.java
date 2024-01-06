@@ -1,15 +1,13 @@
 package com.faq.imp.program;
 
 
-abstract class Animal
-{
+abstract class Animal{
     public String name;
     public int numLegs;
     public abstract void speak();
     public abstract void eat();
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
        Dog12 myDog = new Dog12();
        myDog.speak();
        myDog.eat();
@@ -17,8 +15,7 @@ abstract class Animal
 }
 
 
-public class Dog12 extends Animal
-{
+public class Dog12 extends Animal{
     public void speak() {
     System.out.println("woof");
     }
@@ -26,8 +23,7 @@ public class Dog12 extends Animal
         System.out.println("num num");
     
    }
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Dog12 myDog = new Dog12();
         myDog.speak();
         myDog.eat();

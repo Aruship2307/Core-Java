@@ -10,7 +10,7 @@ public class ArrayJava8SecondSmallNum {
 				                 .skip(1)
 				                 .findFirst()
 				                 .orElseThrow(()-> new IllegalArgumentException("No Such second element found in given array"));
-		System.out.println("Second smallest number form array is: "+secSmallNum);
+		System.out.println("Second smallest number form array is: "+ secSmallNum);
 		return secSmallNum;
 	}
 
